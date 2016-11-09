@@ -1,0 +1,11 @@
+{ 
+    "title": "My code wars.",
+    "author": "sqrtthree <sqrtthree@foxmail.com>",
+    "description": "This is such a great book!",
+    "language": "zh-hans",
+    "links": {
+        "sidebar": {
+            "我的博客": "http://blog.sqrtthree.com/"
+        }
+    }
+}
