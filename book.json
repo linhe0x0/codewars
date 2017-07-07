@@ -1,11 +1,26 @@
-{ 
-    "title": "My code wars.",
-    "author": "sqrtthree <sqrtthree@foxmail.com>",
-    "description": "This is such a great book!",
-    "language": "zh-hans",
-    "links": {
-        "sidebar": {
-            "我的博客": "http://blog.sqrtthree.com/"
-        }
+{
+  "title": "My code wars.",
+  "author": "sqrtthree <sqrtthree@foxmail.com>",
+  "description": "This is such a great book!",
+  "language": "zh-hans",
+  "links": {
+    "sidebar": {
+      "关于作者": "https://github.com/sqrthree"
     }
+  },
+  "plugins": ["edit-link", "github", "github-buttons"],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/sqrthree/codewars/edit/master/",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/sqrthree/codewars"
+    },
+    "github-buttons": {
+      "repo": "sqrthree/codewars",
+      "types": ["star"],
+      "size": "small"
+    }
+  }
 }

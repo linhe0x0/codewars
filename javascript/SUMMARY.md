@@ -5,10 +5,9 @@
 遥想当年自高自大，而今终知天外有天。
 
 * [介绍](README.md)
-* [迈向七级的第一个脚印](8kyu/README.md)
-    * [Broken Greetings](8kyu/broken-greetings.md)
-    * [Multiply](8kyu/multiply.md)
-* [迈向六级的第一个脚印](7kyu/README.md)
-* [迈向五级的第一个脚印](6kyu/README.md)
-* [迈向四级的第一个脚印](5kyu/README.md)
-
+* [8 kyu](8kyu/README.md)
+  * [Multiply](8kyu/multiply.md)
+  * [Broken Greetings](8kyu/broken-greetings.md)
+* [7 kyu](7kyu/README.md)
+* [6 kyu](6kyu/README.md)
+* [5 kyu](5kyu/README.md)
