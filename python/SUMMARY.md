@@ -7,7 +7,6 @@
 * [介绍](README.md)
 * [8 kyu](8kyu/README.md)
   * [Multiply](8kyu/multiply.md)
-  * [Broken Greetings](8kyu/broken-greetings.md)
 * [7 kyu](7kyu/README.md)
 * [6 kyu](6kyu/README.md)
 * [5 kyu](5kyu/README.md)
