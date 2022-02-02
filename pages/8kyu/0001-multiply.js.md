@@ -7,7 +7,7 @@
 The code does not execute properly. Try to figure out why.
 
 ```js
-function multiply(a, b){
+function multiply(a, b) {
   a * b
 }
 ```
@@ -15,16 +15,16 @@ function multiply(a, b){
 ### Test Cases
 
 ```js
-Test.assertEquals(multiply(1,1), 1);
-Test.assertEquals(multiply(2,1), 2);
-Test.assertEquals(multiply(2,2), 4);
-Test.assertEquals(multiply(3,5), 15);
+Test.assertEquals(multiply(1, 1), 1)
+Test.assertEquals(multiply(2, 1), 2)
+Test.assertEquals(multiply(2, 2), 4)
+Test.assertEquals(multiply(3, 5), 15)
 ```
 
 ### Solution
 
 ```js
-function multiply(a, b){
+function multiply(a, b) {
   return a * b
 }
 ```
@@ -38,8 +38,8 @@ function multiply(a, b){
 回答到上一步基本上就已经解决了这个问题了，但是作为一个经验丰富的工程师，需要做的远不止只是解决问题，还要对各种边际情况进行考虑和兼容。
 
 ```js
-function multiply(a, b){
-  if (!a || !b || typeof(a) != "number" || typeof(b) != "number") {
+function multiply(a, b) {
+  if (!a || !b || typeof a != 'number' || typeof b != 'number') {
     return 0
   }
 
@@ -52,8 +52,8 @@ function multiply(a, b){
 ### Further improvement
 
 ```js
-const multiply = function multiply(a, b){
-  if (!a || !b || typeof(a) != "number" || typeof(b) != "number") {
+const multiply = function multiply(a, b) {
+  if (!a || !b || typeof a != 'number' || typeof b != 'number') {
     return 0
   }
 
