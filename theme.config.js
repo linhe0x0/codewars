@@ -5,7 +5,7 @@ export default {
   ],
   projectLink: 'https://github.com/sqrthree/codewars', // GitHub link in the navbar
   docsRepositoryBase: 'https://github.com/sqrthree/codewars/blob/master', // base URL for the docs repository
-  titleSuffix: ' – Sqrtthree',
+  titleSuffix: ' – 根号三',
   nextLinks: true,
   prevLinks: true,
   search: true,
@@ -16,7 +16,7 @@ export default {
     <>
       <span>MIT {new Date().getFullYear()} © </span>
       <a href="https://github.com/sqrthree/" target="_blank">
-        SQRTTHREE
+        根号三
       </a>
     </>
   ),
