@@ -39,7 +39,7 @@ function multiply(a, b) {
 
 ```js
 function multiply(a, b) {
-  if (!a || !b || typeof a != 'number' || typeof b != 'number') {
+  if (typeof a !== 'number' || typeof b !== 'number' || !a || !b) {
     return 0
   }
 
@@ -53,7 +53,7 @@ function multiply(a, b) {
 
 ```js
 const multiply = function multiply(a, b) {
-  if (!a || !b || typeof a != 'number' || typeof b != 'number') {
+  if (typeof a !== 'number' || typeof b !== 'number' || !a || !b) {
     return 0
   }
 
