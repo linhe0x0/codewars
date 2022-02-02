@@ -6,4 +6,4 @@
 
 ## 线上地址
 
-- [blog.sqrtthree.com/codewars](http://blog.sqrtthree.com/codewars/)
+- [blog.sqrtthree.com/codewars](https://blog.sqrtthree.com/codewars/)
