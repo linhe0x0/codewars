@@ -1,0 +1,27 @@
+  name: Deploy
+
+  on:
+    push:
+      branches: [ master ]
+    workflow_dispatch:
+
+  jobs:
+    build-and-deploy:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout 🛎️
+          uses: actions/checkout@v2
+          with:
+            persist-credentials: false
+
+        - name: Install and Build 🔧
+          run: |
+            npm install
+            npm run build
+
+        - name: Deploy 🚀
+          uses: JamesIves/github-pages-deploy-action@v4.2.3
+          with:
+            BRANCH: gh-pages
+            FOLDER: out
+            CLEAN: true
