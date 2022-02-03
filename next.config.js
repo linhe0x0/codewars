@@ -1,8 +1,7 @@
 const nextra = require('nextra')
 
-const withNextra = nextra({
-  theme: 'nextra-theme-docs',
-  themeConfig: './theme.config.js',
-})
+const withNextra = nextra('nextra-theme-docs', './theme.config.js')
 
-module.exports = withNextra()
+module.exports = withNextra({
+  basePath: '/codewars',
+})
