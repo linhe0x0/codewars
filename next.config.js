@@ -5,9 +5,4 @@ const withNextra = nextra({
   themeConfig: './theme.config.js',
 })
 
-module.exports = withNextra({
-  i18n: {
-    locales: ['js', 'go'],
-    defaultLocale: 'js',
-  },
-})
+module.exports = withNextra()

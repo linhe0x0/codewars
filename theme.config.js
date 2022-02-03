@@ -1,8 +1,4 @@
 export default {
-  i18n: [
-    { locale: 'js', text: 'JavaScript' },
-    { locale: 'go', text: 'Go' },
-  ],
   projectLink: 'https://github.com/sqrthree/codewars', // GitHub link in the navbar
   docsRepositoryBase: 'https://github.com/sqrthree/codewars/blob/master', // base URL for the docs repository
   titleSuffix: ' – 根号三',
