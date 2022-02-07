@@ -25,5 +25,9 @@
     "nextra-theme-docs": "~2.0.0-beta.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@sqrtthree/prettier-config": "~2.0.1",
+    "prettier": "~2.5.1"
   }
 }
